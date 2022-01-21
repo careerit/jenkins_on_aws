@@ -1,0 +1,30 @@
+# Rename this file to terraform.tfvars and updated the values below as desired
+
+
+prefix=""
+region=""
+vpc_cidr=""
+owner=""
+keypair=""
+jenkins_main_size=""
+jenkins_worker_size=""
+web_instance_size=""
+web_instance_count = 1
+public_subnet_CIDRs = [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+worker_subnet_CIDR = ""
+  
+web_subnet_CIDRs = [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
